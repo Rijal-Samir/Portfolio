@@ -112,7 +112,6 @@ a {
   font-size: 1.6rem;
 }
 
-/* Buttons */
 .hero-buttons {
   display: flex;
   gap: 1rem;
@@ -214,11 +213,15 @@ background: rgb(63, 54, 54);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover Effect */
+
 .images img:hover {
   transform: scale(1.5);
   box-shadow: 0 15px 35px rgba(0,0,0,0.5);
 }
+
+
+
+
 
 /* About Section */
 .about-section {
@@ -315,6 +318,7 @@ background: rgb(63, 54, 54);
   opacity: 0.9;
 }
 
+
 /* Services Section */
 .services-section {
   padding: 4rem;
@@ -369,6 +373,9 @@ background: rgb(63, 54, 54);
   transform: translateY(-6px);
  
 }
+
+
+
 
 /* My projects Section */
 .project-section {
@@ -433,7 +440,7 @@ background: rgb(63, 54, 54);
   line-height: 1.4;
 }
 
-/* Simple hover effect */
+
 .grid-card:hover {
   transform: translateY(-5px);
   border-color: #8b5cf6;
@@ -454,6 +461,9 @@ background: rgb(63, 54, 54);
 .project-btn:hover {
   transform: translateY(-2px);
 }
+
+
+
 /* Contact us */
 .contact{
     padding: 80px 10%;
@@ -482,9 +492,6 @@ background: rgb(63, 54, 54);
     margin-top: 10px;
 }
 
-
-/* Contact Section */
-/* Contact Section Adjustments */
 .contact-section {
   width: 100%;
   padding: 2rem 1rem;
@@ -497,39 +504,38 @@ background: rgb(63, 54, 54);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* reduced overall gap slightly */
+  gap: 1.5rem; 
 }
 
-/* Contact Section - Reduce spacing */
 .section-header {
   text-align: center;
-  margin-bottom: 10px; /* reduce from 20px */
+  margin-bottom: 10px;
 }
 
 .section-header p {
   font-size: 1rem;
   color: #8b5cf6;
   letter-spacing: 2px;
-  margin-bottom: 2px; /* reduced gap below small text */
+  margin-bottom: 2px; 
 }
 
 .section-header h2 {
   font-size: 2.2rem;
   color: white;
-  margin-bottom: 8px; /* smaller gap before description */
+  margin-bottom: 8px; 
 }
 
 .contact-description {
   text-align: center;
   color: #b8b8c3;
   line-height: 1.6;
-  margin-bottom: 1.5rem; /* space between description and form */
+  margin-bottom: 1.5rem; 
 }
 .contact-form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 15px; /* spacing between inputs */
+  gap: 15px; 
   padding: 2rem;
   border-radius: 20px;
   border: 1px solid rgba(139, 92, 246, 0.2);
@@ -540,7 +546,7 @@ background: rgb(63, 54, 54);
   padding: 12px 15px;
   border-radius: 12px;
   border: 1px solid #ccc;
-  background: #f5f0e1; /* soft cream-like background */
+  background: #f5f0e1; 
   color: #333;
   font-size: 1rem;
   outline: none;
@@ -562,7 +568,7 @@ background: rgb(63, 54, 54);
   border: none;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
-  margin-top: 10px; /* spacing above button */
+  margin-top: 10px; 
 }
 
 .btn-submit:hover {
@@ -586,6 +592,8 @@ background: rgb(63, 54, 54);
 .footer p:last-child {
   font-size: 0.875rem;
 }
+
+
 
 /* ===================== */
 /* NAVBAR RESPONSIVE */
